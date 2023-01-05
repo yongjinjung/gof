@@ -3,11 +3,11 @@ import builder.*;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+public class MainToo {
     public static void main(String[] args) {
 
         //Main.builder1();
-        Main.builder2();
+        MainToo.builder2();
     }
 
     public static void builder1() {
@@ -61,4 +61,17 @@ public class Main {
         return list;
     }
 
+    public int calculate(int a, int b) {
+        return add(a, b, 8);
+    }
+
+    private static int add(int a, int b, int c) {
+        return a + b;
+    }
+
+    private int c;
+    private int minus(int a ,int b){
+        c = a - b;
+        return c;
+    }
 }
